@@ -10,10 +10,8 @@ int ReadInt(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-
-
 int num = Math.Abs(ReadInt("Введите целое положительное число։ "));
-for (int i = 1; i <= num; i++) 
+for (int i = 1; i <= num; i++)
 {
     System.Console.Write($" {Math.Pow(i, 3)}");
 }
